@@ -1,11 +1,8 @@
-//
-//  AppDelegate.swift
-//  Dronestrike
-//
-//  Created by Oliver  on 4/1/17.
-//  Copyright © 2017 Oliver . All rights reserved.
-//
+///
+/// AppDelegate.swift
+///
 
+import GoogleMaps
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GMSServices.provideAPIKey(Secrets.googleMapsApiKey)
         return true
     }
 

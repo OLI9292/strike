@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71BC0E71E90201F00BC2CD1 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71BC0E61E90201F00BC2CD1 /* Secrets.swift */; };
+		A71BC0EA1E902ACC00BC2CD1 /* mapStyles.json in Resources */ = {isa = PBXBuildFile; fileRef = A71BC0E91E902ACC00BC2CD1 /* mapStyles.json */; };
 		A7A678ED1E9017EC00DAE8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A678EC1E9017EC00DAE8DB /* AppDelegate.swift */; };
-		A7A678EF1E9017EC00DAE8DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A678EE1E9017EC00DAE8DB /* ViewController.swift */; };
+		A7A678EF1E9017EC00DAE8DB /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A678EE1E9017EC00DAE8DB /* MapVC.swift */; };
 		A7A678F21E9017EC00DAE8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A678F01E9017EC00DAE8DB /* Main.storyboard */; };
 		A7A678F41E9017EC00DAE8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A678F31E9017EC00DAE8DB /* Assets.xcassets */; };
 		A7A678F71E9017EC00DAE8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A678F51E9017EC00DAE8DB /* LaunchScreen.storyboard */; };
+		E25688549D78654F30BBFADE /* Pods_Dronestrike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1F2817C919236BEAF29CEB /* Pods_Dronestrike.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8315C5C301345FFF55AAC028 /* Pods-Dronestrike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dronestrike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dronestrike/Pods-Dronestrike.debug.xcconfig"; sourceTree = "<group>"; };
+		A71BC0E61E90201F00BC2CD1 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		A71BC0E91E902ACC00BC2CD1 /* mapStyles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapStyles.json; sourceTree = "<group>"; };
 		A7A678E91E9017EC00DAE8DB /* Dronestrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dronestrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A678EC1E9017EC00DAE8DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7A678EE1E9017EC00DAE8DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A678EE1E9017EC00DAE8DB /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		A7A678F11E9017EC00DAE8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7A678F31E9017EC00DAE8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A678F61E9017EC00DAE8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A678F81E9017EC00DAE8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1499BE7D2BEB6CE206EDF3D /* Pods-Dronestrike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dronestrike.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dronestrike/Pods-Dronestrike.release.xcconfig"; sourceTree = "<group>"; };
+		FF1F2817C919236BEAF29CEB /* Pods_Dronestrike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dronestrike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25688549D78654F30BBFADE /* Pods_Dronestrike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CD0C0DA2D9CC2FE72F1029C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8315C5C301345FFF55AAC028 /* Pods-Dronestrike.debug.xcconfig */,
+				D1499BE7D2BEB6CE206EDF3D /* Pods-Dronestrike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A71BC0E51E90201F00BC2CD1 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				A71BC0E61E90201F00BC2CD1 /* Secrets.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+		A71BC0E81E902ACC00BC2CD1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A71BC0E91E902ACC00BC2CD1 /* mapStyles.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A7A678E01E9017EC00DAE8DB = {
 			isa = PBXGroup;
 			children = (
 				A7A678EB1E9017EC00DAE8DB /* Dronestrike */,
 				A7A678EA1E9017EC00DAE8DB /* Products */,
+				3CD0C0DA2D9CC2FE72F1029C /* Pods */,
+				CFD151C626B1AF09E9AF22C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,23 @@
 			isa = PBXGroup;
 			children = (
 				A7A678EC1E9017EC00DAE8DB /* AppDelegate.swift */,
-				A7A678EE1E9017EC00DAE8DB /* ViewController.swift */,
+				A7A678EE1E9017EC00DAE8DB /* MapVC.swift */,
 				A7A678F01E9017EC00DAE8DB /* Main.storyboard */,
 				A7A678F31E9017EC00DAE8DB /* Assets.xcassets */,
+				A71BC0E81E902ACC00BC2CD1 /* Data */,
+				A71BC0E51E90201F00BC2CD1 /* Secrets */,
 				A7A678F51E9017EC00DAE8DB /* LaunchScreen.storyboard */,
 				A7A678F81E9017EC00DAE8DB /* Info.plist */,
 			);
 			path = Dronestrike;
+			sourceTree = "<group>";
+		};
+		CFD151C626B1AF09E9AF22C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F2817C919236BEAF29CEB /* Pods_Dronestrike.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7A678FB1E9017EC00DAE8DB /* Build configuration list for PBXNativeTarget "Dronestrike" */;
 			buildPhases = (
+				08B2EBCA134F07A1CBCE2212 /* [CP] Check Pods Manifest.lock */,
 				A7A678E51E9017EC00DAE8DB /* Sources */,
 				A7A678E61E9017EC00DAE8DB /* Frameworks */,
 				A7A678E71E9017EC00DAE8DB /* Resources */,
+				E2D00FD97929683D1E00EA40 /* [CP] Embed Pods Frameworks */,
+				BDA6698AA2928F4F73CDD538 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +145,7 @@
 				TargetAttributes = {
 					A7A678E81E9017EC00DAE8DB = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VX33YRD3F6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71BC0EA1E902ACC00BC2CD1 /* mapStyles.json in Resources */,
 				A7A678F71E9017EC00DAE8DB /* LaunchScreen.storyboard in Resources */,
 				A7A678F41E9017EC00DAE8DB /* Assets.xcassets in Resources */,
 				A7A678F21E9017EC00DAE8DB /* Main.storyboard in Resources */,
@@ -131,12 +182,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08B2EBCA134F07A1CBCE2212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA6698AA2928F4F73CDD538 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dronestrike/Pods-Dronestrike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D00FD97929683D1E00EA40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dronestrike/Pods-Dronestrike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7A678E51E9017EC00DAE8DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A678EF1E9017EC00DAE8DB /* ViewController.swift in Sources */,
+				A7A678EF1E9017EC00DAE8DB /* MapVC.swift in Sources */,
+				A71BC0E71E90201F00BC2CD1 /* Secrets.swift in Sources */,
 				A7A678ED1E9017EC00DAE8DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +360,10 @@
 		};
 		A7A678FC1E9017EC00DAE8DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8315C5C301345FFF55AAC028 /* Pods-Dronestrike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX33YRD3F6;
 				INFOPLIST_FILE = Dronestrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oliver.Dronestrike;
@@ -272,8 +374,10 @@
 		};
 		A7A678FD1E9017EC00DAE8DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1499BE7D2BEB6CE206EDF3D /* Pods-Dronestrike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX33YRD3F6;
 				INFOPLIST_FILE = Dronestrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oliver.Dronestrike;
@@ -301,6 +405,7 @@
 				A7A678FD1E9017EC00DAE8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
